@@ -1,0 +1,44 @@
+#root {
+  /* width: 100%; */
+  min-width: 80%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.test01 {
+  width: 100%;
+}
+
+.logo {
+  height: 16em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter:
+    saturate(1)
+    hue-rotate(15deg)
+    brightness(1.2)
+    drop-shadow(0 0 2em #64acffaa);
+}
+
+.thanks-text {
+  color: #888;
+}
+
+.click-img {
+  transition: transform 0.2s ease;
+}
+
+.click-img:hover {
+  transform: scale(1.05);
+}
+
+.square-img {
+  min-width: 600px;
+  min-height: 600px;
+}
